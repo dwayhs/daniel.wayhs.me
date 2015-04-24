@@ -82,3 +82,4 @@ PLATFORMS
 
 DEPENDENCIES
   octopress (~> 3.0.0.rc)
+  octopress-escape-code

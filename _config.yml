@@ -11,3 +11,6 @@ github_username:  dwayhs
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-escape-code
