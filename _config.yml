@@ -1,9 +1,8 @@
 # Site settings
-title: Daniel Wayhs - My Personal website
+title: Daniel Wayhs
 email: danielwayhs@gmail.com
 description: >
-  This is my personal website. Here you can find information about me and my
-  work.
+  This is my personal website. Here you can find information about me, my work and other passions.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://daniel.wayhs.me"
 twitter_username: dwayhs
