@@ -11,7 +11,7 @@ github_username:  dwayhs
 # Build settings
 markdown: kramdown
 
-google_universal_analytics: UA-62265210-1
+google_universal_analytics: 'UA-62265210-1'
 google_universal_analytics_cookiedomain: auto
 
 gems:

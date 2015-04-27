@@ -1,0 +1,86 @@
+.site-nav {
+  position: absolute;
+  top: 0;
+  width:100%;
+  height: 45px;
+}
+
+
+header.main-header {
+
+  background-image: url(/images/bg.jpg);
+  background-size: cover;
+  // background-color: #395358;
+  overflow: hidden;
+  border-bottom: 1px solid #333;
+
+
+  // filter: grayscale(1);
+  // -webkit-filter: grayscale(1);
+  // -moz-filter: grayscale(1);
+  // -o-filter: grayscale(1);
+  // -ms-filter: grayscale(1);
+
+}
+
+
+.site-title {
+  position: absolute;
+  margin-top: -130px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+
+  h1 {
+    font-family: 'Holtwood One SC', serif;
+    color: white;
+    white-space: nowrap;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+  }
+
+}
+
+
+.logo {
+  //background-color: rgba(255, 255, 255, 0.6);
+  margin: 10% auto;
+  width: 30%;
+  border: 8px solid #6B7479;
+  position: relative;
+  border-radius: 50%;
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  .picture {
+    position: absolute;
+    border: 2px solid #B3C5D0;
+    top: 2px; left: 2px; right: 2px; bottom: 2px;
+    background-image: url(/images/main-picture.jpg);
+    background-size: cover;
+    border-radius: 50%;
+
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+
+    transition: 1s filter linear;
+    -webkit-transition: 1s -webkit-filter linear;
+    -moz-transition: 1s -moz-filter linear;
+    -ms-transition: 1s -ms-filter linear;
+    -o-transition: 1s -o-filter linear;
+
+    &:hover {
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0);
+      -moz-filter: grayscale(0);
+      -o-filter: grayscale(0);
+      -ms-filter: grayscale(0);
+    }
+  }
+}
