@@ -16,6 +16,7 @@ google_universal_analytics_cookiedomain: auto
 
 gems:
   - octopress-escape-code
+  - jekyll-sitemap
 
 headers:
   - filename: '^assets.*\.js$'
